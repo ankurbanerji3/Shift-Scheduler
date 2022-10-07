@@ -3,12 +3,13 @@ const Navbar = () => {
       <nav className="navbar">
         <h1>The Shift Planner</h1>
         <div className="links">
-          <a href="/" style={{ 
+          <a href="/" style={{
+            textDecoration: 'none',
             color: 'black', 
-            backgroundColor: '#f1356d',
             borderRadius: '8px',
+            marginRight: '10px'
           }}>Shifts</a>
-          <a href="/">Home</a>
+          <a href="/" style={{color: 'black', textDecoration: 'none'}}>Home</a>
         </div>
       </nav>
     );
